@@ -1,0 +1,277 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="112dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:fontFamily="sans-serif-condensed"
+        android:text="0"
+        android:textAlignment="viewEnd"
+        android:textSize="80sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <androidx.gridlayout.widget.GridLayout
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="125dp"
+        app:columnCount="4"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:rowCount="4">
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button7"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="7"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="0"
+            app:layout_columnWeight="0.25"
+            app:layout_row="0"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button4"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="4"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="0"
+            app:layout_columnWeight="0.25"
+            app:layout_row="1"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button1"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="1"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="0"
+            app:layout_columnWeight="0.25"
+            app:layout_row="2"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button0"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="0"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="0.25"
+            app:layout_row="3"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button8"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="8"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="1"
+            app:layout_columnWeight="0.25"
+            app:layout_row="0"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button5"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="5"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="1"
+            app:layout_columnWeight="0.25"
+            app:layout_row="1"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button2"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="2"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="1"
+            app:layout_columnWeight="0.25"
+            app:layout_row="2"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button9"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="9"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="2"
+            app:layout_columnWeight="0.25"
+            app:layout_row="0"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button6"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="6"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="2"
+            app:layout_columnWeight="0.25"
+            app:layout_row="1"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/button3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="3"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="2"
+            app:layout_columnWeight="0.25"
+            app:layout_row="2"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonC"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_700"
+            android:fontFamily="sans-serif-condensed"
+            android:text="C"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="2"
+            app:layout_columnWeight="0.25"
+            app:layout_row="3"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonAdd"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-condensed"
+            android:text="+"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="3"
+            app:layout_columnWeight="0.25"
+            app:layout_row="0"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonSub"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-condensed"
+            android:text="-"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="3"
+            app:layout_columnWeight="0.25"
+            app:layout_row="1"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonTimes"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-condensed"
+            android:text="x"
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="3"
+            app:layout_columnWeight="0.25"
+            app:layout_row="2"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/buttonEquals"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:background="@color/purple_500"
+            android:fontFamily="sans-serif-condensed"
+            android:text="="
+            android:textColor="@color/material_dynamic_neutral99"
+            android:textSize="48sp"
+            app:iconTint="@color/white"
+            app:layout_column="3"
+            app:layout_columnWeight="0.25"
+            app:layout_row="3"
+            app:layout_rowWeight="0.25"
+            app:rippleColor="@color/design_default_color_background" />
+    </androidx.gridlayout.widget.GridLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
